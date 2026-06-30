@@ -90,6 +90,8 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(
                 List.of(
                         "http://localhost:5173",
+                        "https://shop-hub-e-commerce-frontend-9bda.vercel.app",
+                        "https://shop-hub-e-commerce-frontend-9bda-git-main-vedant13951e.vercel.app",
                         "https://shop-hub-e-commerce-frontend-9bda-eed2fpc0m-vedant13951e.vercel.app"
                 )
         );
